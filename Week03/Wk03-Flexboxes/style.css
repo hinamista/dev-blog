@@ -1,0 +1,34 @@
+ul{list-style: none;}
+
+body{
+    background-color: whitesmoke;
+}
+.flex-item{
+    background-color:#FFECF3;
+
+  }
+
+.flex-container {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: left;
+  }
+
+  .flex-item {
+    color: white;
+    background-color: #FFECF3;
+    margin: 20px;
+    padding: 30px;
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+  }
+  @media screen and (min-width: 480px) {
+    .flex-item{
+      background-color: #fc8eac;
+
+    }
+    body{
+        background-color:#FFECF3;
+    }
+  }

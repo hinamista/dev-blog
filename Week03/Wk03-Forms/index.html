@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Sign up for language classes!</h1>
+        <label for="text">Full Name:</label>
+        <input type="text" placeholder="Name" name="details" id="name" required>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Email Address" name="details" id="email" required>
+        <br>
+        <label for="phone">Phone Number:</label>
+        <input type="text" placeholder="Phone Number" name="details" id="phone" required>
+        <label for="date">Date of Birth:</label>
+        <input type="date" placeholder="Date of Birth" name="details" id="dob" required>
+
+        <p>Please choose which classes to attend:</p>
+        <input type="radio" id="cn" name="lang" value="Chinese" required>
+        <label for="cn">Chinese</label><br>
+        <input type="radio" id="jp" name="lang" value="Japanese">
+        <label for="jp">Japanese</label><br>
+        <input type="radio" id="kr" name="lang" value="Korean">
+        <label for="kr">Korean</label><br>
+        <input type="radio" id="fr" name="lang" value="French">
+        <label for="fr">French</label><br>
+
+        <p>Would you like any of the following classes in the future?</p>
+        <input type="checkbox" id="sp" name="more_lang" value="Spanish">
+        <label for="sp">Spanish</label><br>
+        <input type="checkbox" id="ma" name="more_lang" value="Malay">
+        <label for="ma">Malay</label><br>
+        <input type="checkbox" id="ta" name="more_lang" value="Tamil">
+        <label for="ta">Tamil</label><br>
+        <input type="checkbox" id="other" name="more_lang" value="other">
+        <label for="other">Other</label><br>
+
+        <p>Please suggest any other language classes you would like:</p>
+        <textarea id="suggestion" name="suggestion" rows="4" cols="50"></textarea><br>
+
+        <p>Thank you for your participation!</p>
+        <input type="submit" value="Submit!">
+    </form>
+</body>
+</html>
